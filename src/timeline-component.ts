@@ -16,7 +16,7 @@ export class TimelineComponent {
     this.element = document.createElement('main');
     this.element.classList.add('timeline');
     this.element.innerHTML = `
-      <h1 class="timeline-header">
+      <h1 class="timeline-header" style="display:none">
         <a class="text-link" target="_blank"></a>
         <em>
           - powered by
